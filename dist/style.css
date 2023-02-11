@@ -12,10 +12,13 @@
   .header-wrapper {
     display: flex;
     justify-content: center;
+    background-color: brown;
+    padding: 5px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 32px;
     color:black;
+    font-family: 'Courier New', Courier, monospace;
    
   }
   

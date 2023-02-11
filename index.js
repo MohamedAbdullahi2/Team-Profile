@@ -125,7 +125,7 @@ class Prompts {
     }
 
     writeFile() {
-        fs.writeFile('./assets/index.html', generateHTML(this.employees), (err) => {
+        fs.writeFile('./dist/index.html', generateHTML(this.employees), (err) => {
             if (err) throw err;
 
             console.log('The file is created');
