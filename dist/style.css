@@ -5,6 +5,8 @@
   }
   body {
     background-image: url(./abstract-background-copyspace-brainstorm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
   }
   .header-wrapper {
