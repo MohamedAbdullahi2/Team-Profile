@@ -1,10 +1,10 @@
-const Manager = require("./test/employee.test");
-const Engineer = require("./test/engineer.test");
-const Intern = require("./test/intern.test");
-const Intern = require("./test/manager.test");
+
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
+const Manager = require("./lib/Manager");
 
 const inquirer = require("inquirer");
-const generateHTML = require('./assets');
+const generateHTML = require('./Srcs/html.gen');
 const fs = require("fs")
 
 class Prompts {
@@ -18,22 +18,22 @@ class Prompts {
                 {
                     type: 'text',
                     name: 'name',
-                    message: 'What is your managers name?'
+                    message: 'What is your manager name?'
                 },
                 {
                     type: 'text',
                     name: 'id',
-                    message: 'What is your managers id?'
+                    message: 'What is your manager id?'
                 },
                 {
                     type: 'text',
                     name: 'email',
-                    message: 'What is your managers email?'
+                    message: 'What is your manager email?'
                 },
                 {
                     type: 'text',
                     name: 'officeNumber',
-                    message: 'What is your managers office number?'
+                    message: 'What is your manager office number?'
                 }
             ])
             //destructure name from the prompt object
@@ -69,22 +69,22 @@ class Prompts {
                 {
                     type: 'text',
                     name: 'name',
-                    message: 'What is your engineers name?'
+                    message: 'What is your engineer name?'
                 },
                 {
                     type: 'text',
                     name: 'id',
-                    message: 'What is your engineers id?'
+                    message: 'What is your engineer id?'
                 },
                 {
                     type: 'text',
                     name: 'email',
-                    message: 'What is your engineers email?'
+                    message: 'What is your engineer email?'
                 },
                 {
                     type: 'text',
                     name: 'github',
-                    message: 'What is your engineers github username?'
+                    message: 'What is your engineer github username?'
                 }
             ])
             .then(({ name, id, email, github }) => {
@@ -99,22 +99,22 @@ class Prompts {
                 {
                     type: 'text',
                     name: 'name',
-                    message: 'What is your interns name?'
+                    message: 'What is your intern name?'
                 },
                 {
                     type: 'text',
                     name: 'id',
-                    message: 'What is your interns id?'
+                    message: 'What is your intern id?'
                 },
                 {
                     type: 'text',
                     name: 'email',
-                    message: 'What is your interns email?'
+                    message: 'What is your intern email?'
                 },
                 {
                     type: 'text',
                     name: 'school',
-                    message: 'What is your interns school?'
+                    message: 'What is your intern school?'
                 }
             ])
             .then(({ name, id, email, school }) => {

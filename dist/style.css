@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url(./abstract-background-copyspace-brainstorm.jpg);
+
+  }
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 48px;
+    color:black;
+   
+  }
+  
+  .grid {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  
+  .grid div {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: #b6cdd1;
+    width: 50vh;
+  }
+  
+  
+  .grid div h3, .grid div p {
+    font-size: x-large;
+    padding-bottom: 10px;
+  }
+  
