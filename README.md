@@ -30,8 +30,10 @@ OOP (Object-Oriented Programming) is a programming paradigm based on the concept
 TDD (Test-Driven Development) is a software development approach in which tests are written before the implementation of the code they are testing. 
 
 
-MOCK UP 
+## MOCK UP 
 
-![image](https://user-images.githubusercontent.com/118404373/218281183-82b02b7b-3eb3-4174-af1b-7a105978b0ff.png)
+![image](https://user-images.githubusercontent.com/118404373/218281232-0e0c13af-d838-4ea6-8a41-5d598e7b31e6.png)
+
+
 
 
